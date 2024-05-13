@@ -69,7 +69,7 @@ app.get('/weather/:city/', async (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.send('Welcome to the weather API! Use the /weather/:city endpoint to fetch weather data for a specific city.');
+    res.send('Welcome to the weather API! Use the /weather/:city endpoint to fetch weather data for a specific city!');
   });
 // Start the server and listen on the defined port
 app.listen(3000,()=>{
